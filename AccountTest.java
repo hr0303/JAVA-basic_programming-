@@ -1,9 +1,9 @@
-/*Create a class Account with the attributes account No - int, account Type - String,
-accountBalance - int and methods setAccount Details() which set the values to these
-attributes, withdraw() which subtracts the given amount from the available balance,
-deposit() which adds given amount to the available balance and dispAccount Details()
-which displays account No, accountType, accountBalance. Create a class Main1 which
-contains main() method to test the functionality of Account class.*/
+/* Create a class Customer with the fields custld, custName and custAddress. Create a
+method display() which displays the Customer details.
+Create a class Account with the fields acctld, acctType, Customer and acctBalance.
+Create a method display() which displays Account Details
+Create a main class "AccountTest" to test the above classes
+Note: Use constructors to set the values to the fields of the classes.*/
 
 class Costumer {
     int cId;
