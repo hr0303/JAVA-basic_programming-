@@ -4,7 +4,8 @@ rollNum, studName, mark1, mark2, mark3, total Marks
 Methods
 setStudDetails() - which sets the values to all the data members except totalMarks.
 calculate Total() - which calculate the total Marks
-displayStudDetails() - which displays rollNum, studName and total Marks8*/
+displayStudDetails() - which displays rollNum, studName and total Marks8.
+Create a class Student Demo to test the functionality of Student class*/
 
 class Student {
     int rollNum;
