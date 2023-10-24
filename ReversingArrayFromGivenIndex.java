@@ -26,3 +26,42 @@ public class ReverseArrayFromGivenIndex {
     }
 
 }
+
+
+//another code
+import java.util.Scanner;
+
+public class Main {
+
+    static int[] reverseArray(int[] arr,int n,int a) {
+        int b = n-1;
+        while(a!=b){
+            int temp =arr[a];
+            arr[a]=arr[b];
+            arr[b]=temp;
+            a++;
+            b--;
+        }
+        return arr;
+    }
+    static void printArray(int[]arr){
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Enter array size");
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        System.out.println("Enter array elements");
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        System.out.println("Enter index value from where array is to be reversed");
+        int a=sc.nextInt();
+        printArray((reverseArray(arr,n,a)));
+    }
+
+}
