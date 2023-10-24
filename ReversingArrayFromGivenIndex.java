@@ -35,7 +35,7 @@ public class Main {
 
     static int[] reverseArray(int[] arr,int n,int a) {
         int b = n-1;
-        while(a!=b){
+        while(a<b){
             int temp =arr[a];
             arr[a]=arr[b];
             arr[b]=temp;
