@@ -1,4 +1,4 @@
-/Different ways to reverse a string in Java
+// DIFFERENT WAYS TO REVERSE STRING IN JAVA
 // 1.Using for loop and charAt() function.
 import java.lang.String;
 public class ReverseString {
