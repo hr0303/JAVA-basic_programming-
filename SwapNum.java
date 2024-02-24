@@ -6,9 +6,9 @@ ublic class SwapNum {
         int y=5;
         System.out.println(x+" "+y);
 //        USING OPERATORS- +,-
-        x=x+y;
-        y=x-y;
-        x=x-y;
+        x=x+y; //x=10+5=15
+        y=x-y; //y=15-5=10
+        x=x-y; //x=15=10=5
         System.out.println(x+" "+y);
 
 //        USING OPERATORS- *,/
