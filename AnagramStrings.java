@@ -11,7 +11,8 @@ public class IsAnagram {
         System.out.println(isAnagram(str1,str3));
     }
 
-    public static boolean  isAnagram(String s1,String s2){
+    public static boolean  isAnagram(String s1,String s2)
+    {
         boolean value=false;
         char[] arr1=s1.toCharArray();
         char[] arr2=s2.toCharArray();
