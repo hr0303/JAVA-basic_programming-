@@ -28,7 +28,6 @@ public class SmallestLargestNumber {
             else if (i>max) {
                 max=i;
             }
-
         }
         System.out.println("Smallest Number:"+min);
         System.out.println("Largest Number:"+max);
