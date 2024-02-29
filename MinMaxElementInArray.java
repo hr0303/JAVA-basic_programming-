@@ -13,7 +13,7 @@ public class SmallestLargestNumber {
         MaxMin(arr);
     }
 }
-
+// TIME COMPLEXITY: O(nlog n)
 
 //2.Compare each element using for loop
 mport java.util.Arrays;
@@ -37,5 +37,5 @@ public class SmallestLargestNumber {
         SmallestLargestNum(arr);
     }
 }
-
+// TIME COMPLEXITY: O(n)
 
