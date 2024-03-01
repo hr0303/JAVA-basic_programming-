@@ -1,8 +1,11 @@
 // FIND MINIMUM AND MAXIMUM ELEMENT IN AN ARRAY
 // 1.Sort the array and print first and last element
+
 import java.util.Arrays;
+
 public class SmallestLargestNumber {
-  public static void MaxMin(int[] arr){
+  public static void MaxMin(int[] arr)
+  {
         Arrays.sort(arr);
         System.out.println("Smallest Number:"+arr[0]);
         System.out.println("Largest Number:"+arr[arr.length-1]);
@@ -15,8 +18,10 @@ public class SmallestLargestNumber {
 }
 // TIME COMPLEXITY: O(nlog n)
 
+
 //2.Compare each element using for loop
-mport java.util.Arrays;
+import java.util.Arrays;
+
 public class SmallestLargestNumber {
     public static void SmallestLargestNum(int[] arr){
         int min=arr[0];
