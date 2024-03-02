@@ -37,7 +37,7 @@ public class SmallestLargestNumber {
         System.out.println("Smallest Number:"+min);
         System.out.println("Largest Number:"+max);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] arr={-1,-20,3,499,5};
         SmallestLargestNum(arr);
     }
