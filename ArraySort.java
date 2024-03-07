@@ -17,7 +17,7 @@ public class SortArray {
                 newArr[end] = newArr[i];
                 newArr[i] = temp;
                 end--;
-                i--; // Decrement 'i' to recheck the swapped element.
+                i--; // Decrement 'i' to recheck the swapped element.(IMPORTANT)
             }
         }
 
