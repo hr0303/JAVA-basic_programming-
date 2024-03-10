@@ -36,8 +36,7 @@ public static void arrayUnion(int[] arr1,int[] arr2){
         System.out.println(union);
     }
 //    Time Complexity: O(m+n)
-
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         int[] arr1={1,2,3, 4, 5};
         int[] arr2={1,2,3};
         arrayUnion(arr1,arr2);
