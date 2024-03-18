@@ -19,3 +19,4 @@ class Compute {
         arr[0]=temp;
     }
 }
+//Time Complexity: O(n)
