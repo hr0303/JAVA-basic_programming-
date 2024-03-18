@@ -6,6 +6,7 @@ N = 5
 A[] = {1, 2, 3, 4, 5}
 Output:
 5 1 2 3 4   */
+
 class Compute {
     
     public void rotate(int arr[], int n)
