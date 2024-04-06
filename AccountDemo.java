@@ -32,7 +32,7 @@ public class Account {
     }
 }
 public class AccountDemo{
-    public static void main(String [] args){
+    public static void main(String []  args){
         Account a1 = new Account(1001,"Current Account",1000);
 //        a1.setDetails(1001,"Current Account",1000);
         a1.withdraw(500);
