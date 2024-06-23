@@ -17,3 +17,28 @@ class Solution {
 }
 
 // Time Complexity: O(n*m)
+
+class Solution {
+    public int strStr(String haystack, String needle) {
+        if (needle.length() == 0) return 0; // handle the edge case for an empty needle
+
+        int haystackLength = haystack.length();
+        int needleLength = needle.length();
+
+        for (int i = 0; i <= haystackLength - needleLength; i++) {
+            int j;
+            for (j = 0; j < needleLength; j++) {
+                // Compare the characters of haystack and needle
+                if (haystack.charAt(i + j) != needle.charAt(j)) {
+                    break; // Characters do not match, exit the inner loop
+                }
+            }
+            if (j == needleLength) {
+                return i; // Found the needle, return the starting index
+            }
+        }
+
+        return -1; // Needle not found in haystack
+    }
+}
+// Time Complexity: O(n*m)
