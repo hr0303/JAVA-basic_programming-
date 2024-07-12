@@ -25,3 +25,24 @@ public class Solution {
     }
 }
 // Time Complexity: O(n)
+
+public class Solution {
+    public boolean canJump(int[] nums) {
+        if (nums.length <= 1){
+            return true;
+        }
+
+        int jumps = 1;
+
+        for (int i = nums.length - 2; i >= 0; i--) {
+            if (nums[i] >= jumps){
+                 jumps = 1;
+            }     
+            else {
+                jumps++;
+            }    
+        }
+        return nums[0] >= jumps;
+    }
+}
+//Time Complexity: O(n)
