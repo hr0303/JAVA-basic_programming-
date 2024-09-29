@@ -28,5 +28,4 @@ class Solution {
         return increasing || decreasing;
     }
 }
-
 // Time Complexity: O(n)
